@@ -1,0 +1,228 @@
+
+@media md screen and (max-width:768px){
+.menu_wrapper .row{
+padding-top: 70px;
+}
+.menu_wrapper .card h3 span{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+}
+.review_wrapper .carousel-caption{
+bottom:0px;
+}
+.review_wrapper .carousel-item{
+min-height: 460px;
+}
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background: #198754ba;
+}
+.header_wrapper .navbar-toggler{
+box-shadow: none;
+}
+.header_wrapper .navbar-brand img{
+max-width: 120px;
+height: auto;
+}
+.header_wrapper .nav-item .nav-link{
+font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: black;
+    display: inline-block;
+	margin-right: 15px;
+}
+.header_wrapper .nav-item .nav-link active,
+.header_wrapper .nav-item .nav-link:hover{
+color:red;
+}
+.main-btn{
+text-decoration: none;
+    border: 1px solid red;
+    color: red;
+    padding: 10px 19px;
+    border-radius: 50px; 
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 16px;
+    background: linear-gradient(to right, red 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+}
+.main-btn:hover{
+color: white;
+background-position: left bottom;
+}
+.banner_wrapper h1{
+    font-size: 65px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 20px;
+	margin-top:60px;
+}
+.banner_wrapper p{
+margin-top: 34px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.banner_wrapper{
+padding-top: 100px;
+}
+.banner_wrapper .top-menu .card{
+height:275px;
+overflow: hidden;
+cursor: pointer;
+}
+.banner_wrapper .top-menu .card img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 500ms ease;
+}
+.banner_wrapper .top-menu .card:hover img{
+transform:scale(1.1);
+}
+/*About wrapper*/
+ .about_wrapper{
+padding-bottom:130px;
+}
+.about_wrapper .card{
+z-index: 10;
+right: -25%;
+top: 30%;
+}
+
+/*end about_wrapper*/
+/*Menu_wrapper*/
+.menu_wrapper{
+
+width: 100%;
+height: auto;
+background-image: url(images/food-menu-banner.jpg);
+background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+background-color: var(--bs-dark);
+}
+.menu_wrapper .row{
+padding-top: 400px;
+}
+.menu_wrapper .card{
+background-color: var(--bs-dark);
+}
+.menu_wrapper .card h3{
+color: var(--bs-light);
+}
+.menu_wrapper .card p{
+color: var(--bs-light);
+}
+.menu_wrapper .card h3 span{
+background-color: var(--bs-red);
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+    border-radius: 50%;
+
+}
+
+/*end menu_wrapper*/
+/*Offer wrapper*/
+.offer_wrapper .card{
+height:100%;
+min-height: 260px;
+box-shadow: 0 016px 4px rgb(2 2 2 / 58%);
+background-position: 50% 50%;
+background-size: cover;
+}
+.offer_wrapper .card .offer-text{
+width: 50%;
+height: 100%;
+background-color: rgb(2 2 2 / 58%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.offer-text{
+color: red;
+    font-weight: 400;
+}
+/*End Offer wrapper*/
+/*  Review wrapper*/ 
+.review_wrapper{
+width: 100%;
+height: auto;
+background-image: url('images/review-banner.jpg');
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: cover;
+}
+.review_wrapper .carousel-item{
+min-height: 500px;
+height:100%;
+}
+.review_wrapper .carousel-item img{
+width: 65px;
+margin-bottom: 20px;
+}
+.review_wrapper .carousel-control-next-icon, 
+.review_wrapper .carousel-control-prev-icon {
+	filter:brightness(0.10);
+}
+.review_wrapper h3{
+font-size:40px;
+}
+/* end Review wrapper*/ 
+.footer_wrapper{
+background-color: white;
+padding: 20px 0px;
+
+}
+.footer_wrapper .footer-logo img{
+width: 100px;
+}
+.footer_wrapper .social-icon li{
+margin: 6px;
+}
+.footer_wrapper .social-icon a{
+padding: 6px;
+width: 35px;
+height: 35px;
+line-height: 30px;
+font-size: 14px;
+display: inline-block;
+border: 2px solid black;
+color: black;
+text-align: center;
+border-radius: 100%;
+transition: transform background-color border color;
+}
+.footer_wrapper .social-icon a:hover{
+background-color: red;
+border-color: red;
+color: white;
+box-shadow: 0 10px 15px 0 rgb(0 0 0 / 10%);
+transform: translateY (-3px);
+}
+.footer_wrapper  .copyright p{
+font-size: 12px;
+line-height: 20px;
+font-weight: 600;
+}
+.footer_wrapper  .copyright a{
+color: red;
+}
